@@ -1,0 +1,6 @@
+{
+  "verification" : {
+    "testNamePatterns" : ["Verify.*"],
+    "pathPatterns" : ["test/**/verify_**"]
+  }
+}

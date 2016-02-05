@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorControllerTest" tests="4" time="0.019374722" failures="4" errors="0" skipped="0" assertions="8" timestamp="2016-02-03T14:42:15+01:00">
+  <testcase name="test_should_divide" time="0.1729189839970786" assertions="2">
+    <failure type="Minitest::Assertion" message="&lt;5&gt; expected but was...">
+&lt;5&gt; expected but was
+&lt;ERROR&gt;..
+Expected 0 to be &gt;= 1. (Minitest::Assertion)
+/home/marek/work/devskiller/exam-tasks/sample-projects/devskiller-sample-ruby-rails-calculator/test/controllers/calculator_controller_test.rb:27    </failure>
+  </testcase>
+  <testcase name="test_should_add" time="0.004563304988550954" assertions="2">
+    <failure type="Minitest::Assertion" message="&lt;22&gt; expected but was...">
+&lt;22&gt; expected but was
+&lt;ERROR&gt;..
+Expected 0 to be &gt;= 1. (Minitest::Assertion)
+/home/marek/work/devskiller/exam-tasks/sample-projects/devskiller-sample-ruby-rails-calculator/test/controllers/calculator_controller_test.rb:9    </failure>
+  </testcase>
+  <testcase name="test_should_multiply" time="0.00442849300452508" assertions="2">
+    <failure type="Minitest::Assertion" message="&lt;120&gt; expected but was...">
+&lt;120&gt; expected but was
+&lt;ERROR&gt;..
+Expected 0 to be &gt;= 1. (Minitest::Assertion)
+/home/marek/work/devskiller/exam-tasks/sample-projects/devskiller-sample-ruby-rails-calculator/test/controllers/calculator_controller_test.rb:21    </failure>
+  </testcase>
+  <testcase name="test_should_subtract" time="0.004620105988578871" assertions="2">
+    <failure type="Minitest::Assertion" message="&lt;-2&gt; expected but was...">
+&lt;-2&gt; expected but was
+&lt;ERROR&gt;..
+Expected 0 to be &gt;= 1. (Minitest::Assertion)
+/home/marek/work/devskiller/exam-tasks/sample-projects/devskiller-sample-ruby-rails-calculator/test/controllers/calculator_controller_test.rb:15    </failure>
+  </testcase>
+</testsuite>
