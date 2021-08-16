@@ -2,8 +2,7 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('config/application', __dir__)
-require 'ci/reporter/rake/minitest'
 
 Rails.application.load_tasks
 
-task ci: ['ci:setup:minitest', 'test']
+task ci: ['test']
